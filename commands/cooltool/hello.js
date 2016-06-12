@@ -19,7 +19,8 @@ exports.options = {
 
 exports.execute = function (options, name, callback) {
   if (options.d) {
-    console.log('debug:', options, name)
+    console.log('debug -- ', name)
+    console.log('debug -- ', options)
   }
 
   console.log(`Hello ${name}!`)
