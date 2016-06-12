@@ -1,0 +1,30 @@
+{
+  "name": "cooltool",
+  "version": "0.0.1",
+  "description": "Its my cool tool!",
+  "main": "index.js",
+  "dependencies": {
+    "climaker": "0.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stelcheck/cooltool.git"
+  },
+  "keywords": [
+    "cool",
+    "tool"
+  ],
+  "author": "Marc Trudel <mt@mu-shin.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stelcheck/cooltool/issues"
+  },
+  "homepage": "https://github.com/stelcheck/cooltool#readme",
+  "bin": {
+    "cooltool": "./bin/cooltool-cli.js"
+  }
+}
