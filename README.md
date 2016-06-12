@@ -22,3 +22,8 @@ You can then run `cooltool` by running:
 ```bash
 ./bin/cooltool
 ```
+
+License
+--------
+
+MIT.
